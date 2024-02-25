@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- daisyUI -->
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+<main class="w-60 m-auto min-h-screen  flex flex-col justify-center items-center bg-cyan-600 border-dashed border-4 border-cyan-950 ">
+
+    <div id="fild-container" class="grid  m-auto  grid-cols-3 text-center" >
+        <div id="btn1" class="btnn row1 col-1 cor-lf border-4 border-r-emerald-600 border-b-emerald-600 w-10 h-10 bg-slate-300"></div>
+        <div id="btn2" class="btnn row1 col-2 border-4 border-r-emerald-600 border-b-emerald-600 w-10 h-10 bg-slate-300"></div>
+        <div id="btn3" class="btnn row1 col-3 cor-rl border-4 border-b-emerald-600 w-10 h-10 bg-slate-300"></div>
+        <div id="btn4" class="btnn row2 col-1 border-4 border-r-emerald-600 border-b-emerald-600 w-10 h-10 bg-slate-300"></div>
+        <div id="btn5" class="btnn row2 col-2 cor-lf cor-rl border-4 border-r-emerald-600 border-b-emerald-600 w-10 h-10 bg-slate-300"></div>
+        <div id="btn6" class="btnn row2 col-3 border-4  border-b-emerald-600 w-10 h-10 bg-slate-300"></div>
+        <div id="btn7" class="btnn row3 col-1 cor-rl border-4 border-r-emerald-600  w-10 h-10 bg-slate-300"></div>
+        <div id="btn8" class="btnn row3 col-2 border-4 border-r-emerald-600 w-10 h-10 bg-slate-300"></div>
+        <div id="btn9" class="btnn row3 col-3 cor-lf border-4   w-10 h-10 bg-slate-300"></div>
+
+
+    </div>
+
+
+    <div id="bottom-container" class=" flex  gap-2 bg-slate-500 mb-5 p-2 text-white rounded-md font-bold ">
+        <div class="flex flex-col gap-2 ">
+            <p id="player1" class="border-cm">Player1</p>
+            <p class=" font-medium">Score: <span id="score1">0</span></p>
+            
+        </div>
+       
+        <div  class="flex flex-col gap-2">
+            
+            <p id="player2" class=""> Player2</p>
+            <p class=" font-medium">Score: <span id="score2">0</span></p>
+        </div>
+
+
+    </div>
+
+</main>
+
+<script src="script/ut.js"></script>
+   <script src="script/script.js"></script> 
+</body>
+</html>
